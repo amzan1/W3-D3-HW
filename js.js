@@ -142,7 +142,7 @@ addBook("Behave","Robert Sapolsky",800)
 // /////////////Create function searchBook/////////////
 
 function searchBook(search){
-    const findSearch = books.find(function(x){
+    books.find(function(x){
         if(x.title==search||x.author==search||x.borrower==search){
             console.log(x)
         }
